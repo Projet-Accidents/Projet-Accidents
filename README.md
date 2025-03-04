@@ -18,24 +18,25 @@ Après l'agrégation et le nettoyage des différents fichiers, nous analyserons 
 
 Les datasets etant trop lourds (273226 lignes), ils ne sont pas stockés dans le Github. Voici cependant le lien pour y accéder
 
-Caractéristiques de 2005 à 2023:
+Caractéristiques de 2005 à 2023: https://drive.google.com/drive/folders/1sZes2NkcsUA0cxTwFXgmMNBedvp5SjGi?usp=sharing
 
-Lieux de 2005 à 2023:
+Lieux de 2005 à 2023: https://drive.google.com/drive/folders/1uOsHWUWYnw-0CiAcg3vh5zxfm7BfzrtX?usp=sharing
 
-Usagers de 2005 à 2023:
+Usagers de 2005 à 2023: https://drive.google.com/drive/folders/1h6knGV_1aji_GENWUOuia96dxAPA4kVf?usp=sharing
 
-Véhicules de 2005 à 2023:
+Véhicules de 2005 à 2023: https://drive.google.com/drive/folders/1QyoQubXr21dQCzDSkAPSKHB1t0q5nefc?usp=sharing
 
-Concaténation caractéristiques de 2019 à 2023: 
+all_data_caractéristiques de 2019 à 2023: https://drive.google.com/file/d/16-ccVuQu2EnpLzghV223rXGyst-2SjQu/view?usp=sharing
 
-Concaténation lieux de 2019 à 2023:
+all_data_lieux de 2019 à 2023: https://drive.google.com/file/d/155xpqFW4bpgoN_d15qGUnmwES9g6983-/view?usp=sharing
 
-Concaténation usagers de 2019 à 2023:
+all_data_usagers de 2019 à 2023: https://drive.google.com/file/d/1OegcguvHBBTn6kCltXhkVdhujvxRvUZ-/view?usp=sharing
 
-Concaténation Véhicules de 2019 à 2023:
+all_data__véhicules 2019 à 2023: https://drive.google.com/file/d/1RbaJlB0pRC5mhFy6cnTk303jbBDjpnMf/view?usp=sharing
 
-Dataframe final:
+Dataframe final df_total_final: https://drive.google.com/file/d/1MoTCvFEn78pcS05pssfep4LaNM-weB-5/view?usp=sharing
 
-Dataframe machine learning: 
+Dataframe machine learning df_machine_learning : https://drive.google.com/file/d/1JLQIGfRc9HLQqccd5PhnHjt7BuE4YjK-/view?usp=sharing
+
 
 
