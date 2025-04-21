@@ -1,22 +1,10 @@
 ACCIDENTS ROUTIERS EN FRANCE
 
-L’objectif de ce projet est d’essayer de prédire la gravité des accidents routiers en France en se basant sur les données historiques recensées en France entre 2005 et 2023.
+Face à l'urgence vitale d'un accident de la circulation, chaque second compte. L'efficacité de la chaîne de secours, depuis l'appel initial jusqu'à l'arrivée des équipes médicales, repose sur une évaluation rapide et précise de la situation. Or, comment, dans le tumulte des premiers instants, les centres d'appels d'urgence peuvent-ils déterminer avec fiabilité le niveau de gravité réel d'un sinistre pour dépêcher les ressources les plus adaptées – ni trop, ni trop peu. C'est précisément ce défi opérationnel et humain majeur que ce projet ambitionne de relever.
+En s'appuyant sur la richesse des données de la Base Accidents Corporels (BAAC) pour la période critique 2019-2023, ce travail vise à développer un modèle prédictif robuste. L'objectif : fournir aux services d'urgence un outil d'aide à la décision capable d'estimer, dès la réception de l'alerte, la probabilité qu'un accident implique des blessés hospitalisés afin de déclencher le nombre et le type de secours adaptés.
+Pour y parvenir, une démarche rigoureuse a été entreprise : d'abord, un nettoyage et une structuration méticuleuse des données hétérogènes issues des tables Caractéristiques, Lieux, Véhicules et Usagers ; ensuite, une analyse exploratoire approfondie pour déceler les facteurs temporels, géographiques, infra structurels et humains les plus déterminants dans la survenue et la sévérité des accidents ; enfin, une phase de modélisation comparative, évaluant différentes approches algorithmiques (Random Forest, Régression Logistique, XGBoost, KNN) et stratégies de gestion du déséquilibre des classes, pour identifier la solution la plus performante au regard des priorités opérationnelles – notamment la détection fiable des cas les plus graves.
 
-Nous avons à notre disposition des fichiers excel regroupant des données recueillies par l'unité des forces de l'ordre qui est intervenue sur le lieu de l'accident, ainsi que la description des bases de données anuelles.
-
-Les fichiers sont séparés en 4 rubriques:
-
-La rubrique CARACTERISTIQUES qui décrit les circonstances générales de l’accident
-La rubrique LIEUX qui décrit le lieu principal de l’accident même si celui-ci s’est déroulé à une intersection
-La rubrique VEHICULES impliqués
-La rubrique USAGERS impliqués
-
-Après réflexion collective, nous décidons de créer un modèle dont l'objectif serait de permettre à un centre d'appel de secours de déterminer le niveau de gravité d'un accident qui vient de se produire, afin de déclencher le nombre et le type de secours adapté. La varaible cible est donc la gravité.
-Nous définirons aussi la gravité de l’accident comme la gravité maximale constatée lors de cet accident.
-
-Après l'agrégation et le nettoyage des différents fichiers, nous analyserons ces données, puis testerons des modèles de Machine Learning pour prédire au mieux les besoins de secours. 
-
-Les datasets etant trop lourds (273226 lignes), ils ne sont pas stockés dans le Github. Voici cependant le lien pour y accéder
+Les dataset initiaux sont trop lourds, ils sont donc accessibles par les liens ci-dessous
 
 Caractéristiques de 2005 à 2023: https://drive.google.com/drive/folders/1sZes2NkcsUA0cxTwFXgmMNBedvp5SjGi?usp=sharing
 
